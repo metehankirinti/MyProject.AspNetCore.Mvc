@@ -1,0 +1,30 @@
+﻿@using Project_8.Models;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_arac_layout_.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>marka</th>
+        <th>model</th>
+        <th>renk</th>
+        <th>sil</th>
+        <th>güncelle</th>
+    </tr>
+    @foreach(var x in Model) 
+    {
+        <tr>
+           
+            <td>@x.marka</td>
+            <td>@x.model</td>
+            <td>@x.Renk</td>
+            <td><a href="/arac/Aracsil/@x.aracid" class="btn btn-warning">Kaydı Sil</a></td>
+            <td><a href="/arac/Aracgüncelle/@x.aracid" class="btn btn-danger">Kaydı güncelle</a></td>
+        </tr>     
+     
+    }
+</table>
+<a href="/arac/AracEkle " class="btn btn-primary">Yeni araç</a>
+

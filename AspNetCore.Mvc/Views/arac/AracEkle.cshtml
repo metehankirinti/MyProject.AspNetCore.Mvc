@@ -1,0 +1,23 @@
+﻿@model Project_8.Models.hancars
+@{
+    ViewBag.Title = "AracEkle";
+    Layout = "~/Views/Shared/_arac_layout_.cshtml";
+}
+
+<h2>AracEkle</h2>
+<br />
+<form class="form-group" method="post">
+    <div>
+        @Html.LabelFor(x => x.marka)
+        @Html.TextBoxFor(x => x.marka, new { @class = "form-control" })
+    </div>
+    <div>
+        @Html.LabelFor(x => x.model)
+        @Html.TextBoxFor(x => x.model, new { @class = "form-control" })
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Renk)
+        @Html.TextBoxFor(x => x.Renk, new { @class = "form-control" })
+    </div>
+    <button class="btn btn-info">KAYDET</button>
+</form>

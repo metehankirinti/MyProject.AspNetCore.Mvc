@@ -1,0 +1,38 @@
+@using Project_8.Models;
+@{
+    ViewBag.Title = "Araç Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string veri = Convert.ToString(Request.Url.Segments[Request.Url.Segments.Length - 1]);
+}
+
+
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row">
+            @foreach (var x in Model)
+            {
+                if (x.marka.Trim() == veri)
+                {
+                    <div class="col-md-4">
+                        <div class="car-wrap rounded ">
+                            <div class="img rounded d-flex align-items-end" style="background-image: url(/content/template/images/araba/car-@Html.Raw(x.aracid)@Html.Raw(".jpg")">
+                            </div>
+                            <div class="text">
+                                <h2 class="mb-0"><a href="/Home/Marka/@x.aracid">@x.marka @x.model </a></h2>
+                                <div class="d-flex mb-3">
+                                    <span class="cat"><a href="/Home/Marka/@x.marka">@x.marka      <a />   </span>
+                                    <p class="price ml-auto"> @x.Fiyat <span>/4 taksit</span></p>
+                                </div>
+                                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Satýn Al</a> <a href="car-single.html" class="btn btn-secondary py-2 ml-1">Detay</a></p>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+            }
+
+        </div>
+    </div>
+</section>
+

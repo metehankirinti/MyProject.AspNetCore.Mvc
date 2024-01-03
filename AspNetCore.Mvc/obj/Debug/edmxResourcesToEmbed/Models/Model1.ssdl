@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aracModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="alinanaraclar">
+    <Key>
+      <PropertyRef Name="alinanaraclarid" />
+    </Key>
+    <Property Name="alinanaraclarid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="alınanarac" Type="int" />
+    <Property Name="aracid" Type="int" />
+    <Property Name="musteriid" Type="int" />
+  </EntityType>
+  <EntityType Name="hancars">
+    <Key>
+      <PropertyRef Name="aracid" />
+    </Key>
+    <Property Name="aracid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="marka" Type="char" MaxLength="50" />
+    <Property Name="model" Type="char" MaxLength="50" />
+    <Property Name="yil" Type="smallint" />
+    <Property Name="km" Type="int" />
+    <Property Name="yakit" Type="char" MaxLength="50" />
+    <Property Name="vites" Type="char" MaxLength="50" />
+    <Property Name="kasatipi" Type="char" MaxLength="50" />
+    <Property Name="motorgücü" Type="varchar" MaxLength="50" />
+    <Property Name="çekiş" Type="char" MaxLength="50" />
+    <Property Name="durumu" Type="char" MaxLength="50" />
+    <Property Name="Tramer" Type="smallmoney" />
+    <Property Name="Renk" Type="char" MaxLength="50" />
+    <Property Name="Fiyat" Type="money" />
+    <Property Name="alınanarac1" Type="int" />
+  </EntityType>
+  <EntityType Name="musteriler">
+    <Key>
+      <PropertyRef Name="musteriid" />
+    </Key>
+    <Property Name="musteriid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="isim" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="soyisim" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="telno" Type="bigint" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="adres" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'arac.dbo.arac' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="arac">
+    <Key>
+      <PropertyRef Name="alinanaraclarid" />
+      <PropertyRef Name="isim" />
+      <PropertyRef Name="soyisim" />
+      <PropertyRef Name="marka" />
+      <PropertyRef Name="model" />
+      <PropertyRef Name="fiyat" />
+    </Key>
+    <Property Name="alinanaraclarid" Type="int" Nullable="false" />
+    <Property Name="isim" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="soyisim" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="marka" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="model" Type="char" MaxLength="50" Nullable="false" />
+    <Property Name="fiyat" Type="money" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__alinanara__araci__2B3F6F97">
+    <End Role="hancars" Type="Self.hancars" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hancars">
+        <PropertyRef Name="aracid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="aracid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__alinanara__muste__2C3393D0">
+    <End Role="musteriler" Type="Self.musteriler" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteriler">
+        <PropertyRef Name="musteriid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="musteriid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_alınanaraclar_hancars">
+    <End Role="hancars" Type="Self.hancars" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hancars">
+        <PropertyRef Name="aracid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="aracid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="fnendüşükkm" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="varacid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fnenyüksekkm" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="varacid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fnhancars" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="varacid" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_cursorhancars" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_musterilerkayıtekleme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="visim" Type="varchar" Mode="In" />
+    <Parameter Name="vsoyisim" Type="varchar" Mode="In" />
+    <Parameter Name="vtelno" Type="bigint" Mode="In" />
+    <Parameter Name="vemail" Type="varchar" Mode="In" />
+    <Parameter Name="vadres" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_musterilerkayıtgüncelleme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="visim" Type="varchar" Mode="In" />
+    <Parameter Name="vsoyisim" Type="varchar" Mode="In" />
+    <Parameter Name="vtelno" Type="bigint" Mode="In" />
+    <Parameter Name="vemail" Type="varchar" Mode="In" />
+    <Parameter Name="vadres" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_musterilerkayıtsilme" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="aracModelStoreContainer">
+    <EntitySet Name="alinanaraclar" EntityType="Self.alinanaraclar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="hancars" EntityType="Self.hancars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="musteriler" EntityType="Self.musteriler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="arac" EntityType="Self.arac" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [arac].[alinanaraclarid] AS [alinanaraclarid], 
+    [arac].[isim] AS [isim], 
+    [arac].[soyisim] AS [soyisim], 
+    [arac].[marka] AS [marka], 
+    [arac].[model] AS [model], 
+    [arac].[fiyat] AS [fiyat]
+    FROM [dbo].[arac] AS [arac]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__alinanara__araci__2B3F6F97" Association="Self.FK__alinanara__araci__2B3F6F97">
+      <End Role="hancars" EntitySet="hancars" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK__alinanara__muste__2C3393D0" Association="Self.FK__alinanara__muste__2C3393D0">
+      <End Role="musteriler" EntitySet="musteriler" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_alınanaraclar_hancars" Association="Self.FK_alınanaraclar_hancars">
+      <End Role="hancars" EntitySet="hancars" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="aracModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="alinanaraclar">
+    <Key>
+      <PropertyRef Name="alinanaraclarid" />
+    </Key>
+    <Property Name="alinanaraclarid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="alınanarac" Type="Int32" />
+    <Property Name="aracid" Type="Int32" />
+    <Property Name="musteriid" Type="Int32" />
+    <NavigationProperty Name="hancars" Relationship="Self.FK__alinanara__araci__2B3F6F97" FromRole="alinanaraclar" ToRole="hancars" />
+    <NavigationProperty Name="musteriler" Relationship="Self.FK__alinanara__muste__2C3393D0" FromRole="alinanaraclar" ToRole="musteriler" />
+    <NavigationProperty Name="hancars1" Relationship="Self.FK_alınanaraclar_hancars" FromRole="alinanaraclar" ToRole="hancars" />
+  </EntityType>
+  <EntityType Name="hancars">
+    <Key>
+      <PropertyRef Name="aracid" />
+    </Key>
+    <Property Name="aracid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="marka" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="model" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="yil" Type="Int16" />
+    <Property Name="km" Type="Int32" />
+    <Property Name="yakit" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="vites" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="kasatipi" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="motorgücü" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="çekiş" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="durumu" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Tramer" Type="Decimal" Precision="10" Scale="4" />
+    <Property Name="Renk" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="Fiyat" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="alınanarac1" Type="Int32" />
+    <NavigationProperty Name="alinanaraclar" Relationship="Self.FK__alinanara__araci__2B3F6F97" FromRole="hancars" ToRole="alinanaraclar" />
+    <NavigationProperty Name="alinanaraclar1" Relationship="Self.FK_alınanaraclar_hancars" FromRole="hancars" ToRole="alinanaraclar" />
+  </EntityType>
+  <EntityType Name="musteriler">
+    <Key>
+      <PropertyRef Name="musteriid" />
+    </Key>
+    <Property Name="musteriid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="isim" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="soyisim" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telno" Type="Int64" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="adres" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="alinanaraclar" Relationship="Self.FK__alinanara__muste__2C3393D0" FromRole="musteriler" ToRole="alinanaraclar" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="arac">
+    <Key>
+      <PropertyRef Name="alinanaraclarid" />
+      <PropertyRef Name="isim" />
+      <PropertyRef Name="soyisim" />
+      <PropertyRef Name="marka" />
+      <PropertyRef Name="model" />
+      <PropertyRef Name="fiyat" />
+    </Key>
+    <Property Name="alinanaraclarid" Type="Int32" Nullable="false" />
+    <Property Name="isim" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="soyisim" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="marka" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="model" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="fiyat" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__alinanara__araci__2B3F6F97">
+    <End Role="hancars" Type="Self.hancars" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hancars">
+        <PropertyRef Name="aracid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="aracid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__alinanara__muste__2C3393D0">
+    <End Role="musteriler" Type="Self.musteriler" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="musteriler">
+        <PropertyRef Name="musteriid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="musteriid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_alınanaraclar_hancars">
+    <End Role="hancars" Type="Self.hancars" Multiplicity="0..1" />
+    <End Role="alinanaraclar" Type="Self.alinanaraclar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="hancars">
+        <PropertyRef Name="aracid" />
+      </Principal>
+      <Dependent Role="alinanaraclar">
+        <PropertyRef Name="aracid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="aracEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="alinanaraclar" EntityType="Self.alinanaraclar" />
+    <EntitySet Name="hancars" EntityType="Self.hancars" />
+    <EntitySet Name="musteriler" EntityType="Self.musteriler" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="arac" EntityType="Self.arac" />
+    <AssociationSet Name="FK__alinanara__araci__2B3F6F97" Association="Self.FK__alinanara__araci__2B3F6F97">
+      <End Role="hancars" EntitySet="hancars" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK__alinanara__muste__2C3393D0" Association="Self.FK__alinanara__muste__2C3393D0">
+      <End Role="musteriler" EntitySet="musteriler" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_alınanaraclar_hancars" Association="Self.FK_alınanaraclar_hancars">
+      <End Role="hancars" EntitySet="hancars" />
+      <End Role="alinanaraclar" EntitySet="alinanaraclar" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_cursorhancars" />
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(aracModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(aracModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_musterilerkayıtekleme">
+      <Parameter Name="visim" Mode="In" Type="String" />
+      <Parameter Name="vsoyisim" Mode="In" Type="String" />
+      <Parameter Name="vtelno" Mode="In" Type="Int64" />
+      <Parameter Name="vemail" Mode="In" Type="String" />
+      <Parameter Name="vadres" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_musterilerkayıtgüncelleme">
+      <Parameter Name="visim" Mode="In" Type="String" />
+      <Parameter Name="vsoyisim" Mode="In" Type="String" />
+      <Parameter Name="vtelno" Mode="In" Type="Int64" />
+      <Parameter Name="vemail" Mode="In" Type="String" />
+      <Parameter Name="vadres" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_musterilerkayıtsilme" />
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

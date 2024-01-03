@@ -1,0 +1,328 @@
+C:\Users\meteh\source\repos\Project_8\bin\Project_8.dll.config
+C:\Users\meteh\source\repos\Project_8\bin\Project_8.dll
+C:\Users\meteh\source\repos\Project_8\bin\Project_8.pdb
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csc.exe
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csc.exe.config
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csc.rsp
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csi.exe
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csi.exe.config
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\csi.rsp
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.AppContext.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Console.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.IO.Compression.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Net.Http.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Net.Sockets.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.ValueTuple.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Xml.XPath.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\vbc.exe
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\vbc.exe.config
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\vbc.rsp
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\VBCSCompiler.exe
+C:\Users\meteh\source\repos\Project_8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\meteh\source\repos\Project_8\bin\Antlr3.Runtime.dll
+C:\Users\meteh\source\repos\Project_8\bin\Azure.Core.dll
+C:\Users\meteh\source\repos\Project_8\bin\Azure.Identity.dll
+C:\Users\meteh\source\repos\Project_8\bin\EntityFramework.dll
+C:\Users\meteh\source\repos\Project_8\bin\EntityFramework.SqlServer.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Data.SqlClient.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Data.Sqlite.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Identity.Client.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\meteh\source\repos\Project_8\bin\Newtonsoft.Json.dll
+C:\Users\meteh\source\repos\Project_8\bin\SQLitePCLRaw.batteries_v2.dll
+C:\Users\meteh\source\repos\Project_8\bin\SQLitePCLRaw.core.dll
+C:\Users\meteh\source\repos\Project_8\bin\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Buffers.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Data.SqlClient.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Memory.Data.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Memory.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Numerics.Vectors.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.AccessControl.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Permissions.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Principal.Windows.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Text.Encodings.Web.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Text.Json.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.ValueTuple.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Helpers.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Mvc.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Optimization.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Razor.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.Deployment.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.dll
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.Razor.dll
+C:\Users\meteh\source\repos\Project_8\bin\WebGrease.dll
+C:\Users\meteh\source\repos\Project_8\bin\Azure.Core.xml
+C:\Users\meteh\source\repos\Project_8\bin\Azure.Identity.xml
+C:\Users\meteh\source\repos\Project_8\bin\EntityFramework.xml
+C:\Users\meteh\source\repos\Project_8\bin\EntityFramework.SqlServer.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Data.SqlClient.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Data.Sqlite.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Identity.Client.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Buffers.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Data.SqlClient.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Memory.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Memory.Data.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Numerics.Vectors.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.AccessControl.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Permissions.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Security.Principal.Windows.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Text.Encodings.Web.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Text.Json.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.ValueTuple.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Helpers.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Mvc.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Optimization.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.Razor.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.Deployment.xml
+C:\Users\meteh\source\repos\Project_8\bin\System.Web.WebPages.Razor.xml
+C:\Users\meteh\source\repos\Project_8\bin\Newtonsoft.Json.xml
+C:\Users\meteh\source\repos\Project_8\bin\Antlr3.Runtime.pdb
+C:\Users\meteh\source\repos\Project_8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\meteh\source\repos\Project_8\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.Razor.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\meteh\source\repos\Project_8\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\meteh\source\repos\Project_8\obj\Debug\Project_8.csproj.CoreCompileInputs.cache
+C:\Users\meteh\source\repos\Project_8\obj\Debug\Project_8.csproj.CopyComplete
+C:\Users\meteh\source\repos\Project_8\obj\Debug\Project_8.dll
+C:\Users\meteh\source\repos\Project_8\obj\Debug\Project_8.pdb
+C:\Users\meteh\source\repos\Project_8\obj\Debug\Project_8.csproj.AssemblyReference.cache
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Project_8.dll.config
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Project_8.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Project_8.pdb
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csc.exe
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csc.exe.config
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csc.rsp
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csi.exe
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csi.exe.config
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\csi.rsp
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.AppContext.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Console.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.IO.Compression.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Net.Http.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Net.Sockets.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.ValueTuple.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Xml.XPath.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\vbc.exe
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\vbc.exe.config
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\vbc.rsp
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\VBCSCompiler.exe
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Antlr3.Runtime.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Azure.Core.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Azure.Identity.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\EntityFramework.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\EntityFramework.SqlServer.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Data.SqlClient.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Data.Sqlite.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Identity.Client.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Newtonsoft.Json.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\SQLitePCLRaw.batteries_v2.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\SQLitePCLRaw.core.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Buffers.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Configuration.ConfigurationManager.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Data.SqlClient.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Memory.Data.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Memory.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Numerics.Vectors.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.AccessControl.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Cryptography.ProtectedData.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Permissions.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Principal.Windows.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Text.Encodings.Web.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Text.Json.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.ValueTuple.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Helpers.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Mvc.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Optimization.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Razor.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.Deployment.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.Razor.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\WebGrease.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Azure.Core.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Azure.Identity.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\EntityFramework.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\EntityFramework.SqlServer.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Data.SqlClient.pdb
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Data.SqlClient.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Data.Sqlite.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Identity.Client.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Buffers.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Configuration.ConfigurationManager.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Data.SqlClient.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Memory.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Memory.Data.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Numerics.Vectors.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.AccessControl.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Cryptography.ProtectedData.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Permissions.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Security.Principal.Windows.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Text.Encodings.Web.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Text.Json.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.ValueTuple.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Helpers.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Mvc.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Optimization.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.Razor.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.Deployment.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\System.Web.WebPages.Razor.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Newtonsoft.Json.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Antlr3.Runtime.pdb
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.Razor.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\obj\Debug\Project_8.csproj.AssemblyReference.cache
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\obj\Debug\Project_8.csproj.CoreCompileInputs.cache
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\obj\Debug\Project_8.csproj.CopyComplete
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\obj\Debug\Project_8.dll
+C:\Users\meteh\OneDrive\Masaüstü\DERS\mvc 3.sınıf\obj\Debug\Project_8.pdb
